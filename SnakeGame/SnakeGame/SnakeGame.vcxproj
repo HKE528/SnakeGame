@@ -138,7 +138,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="ConsolSetting.cpp" />
+    <ClCompile Include="ConsolControl.cpp" />
+    <ClCompile Include="Frame.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
