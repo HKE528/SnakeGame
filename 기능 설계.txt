@@ -2,8 +2,11 @@ ConsolSetting.cpp
  - 콘솔 커서 숨기기
  - 콘솔 사이즈 조정
  - 콘솔 커서 위치 이동
-Frame.cpp
- - 맵 세팅
+
+UI.cpp
+ - 게임 시작 UI 화면
+ - 게임 오버 UI 화면
+ - 게임 진행중 UI 화면
 
 Drawer.cpp
  - 게임 화면 그리기

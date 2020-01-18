@@ -139,7 +139,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="ConsolControl.cpp" />
-    <ClCompile Include="Frame.cpp" />
+    <ClCompile Include="Drawer.cpp" />
+    <ClCompile Include="UI.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
