@@ -141,6 +141,7 @@
     <ClCompile Include="ConsolControl.cpp" />
     <ClCompile Include="Drawer.cpp" />
     <ClCompile Include="GameMAneger.cpp" />
+    <ClCompile Include="SnakeMover.cpp" />
     <ClCompile Include="UI.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>

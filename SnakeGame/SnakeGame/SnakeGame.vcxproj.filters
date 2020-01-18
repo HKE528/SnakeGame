@@ -30,6 +30,9 @@
     <ClCompile Include="GameMAneger.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="SnakeMover.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Snake.h">

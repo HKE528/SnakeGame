@@ -14,10 +14,5 @@ void Remover(int x, int y)
 	printf("  ");
 }
 
-void SpawnSnake()
-{
-	int startX = 5;
-	int startY = 5;
 
-	DrawSnake(startX, startY);
-}
+
