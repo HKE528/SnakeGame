@@ -1,4 +1,9 @@
 ﻿  ConsolControl.cpp
 C:\Users\HKE\Desktop\SnakeGame\SnakeGame\SnakeGame\ConsolControl.cpp(25,19): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
 C:\Users\HKE\Desktop\SnakeGame\SnakeGame\SnakeGame\ConsolControl.cpp(25,22): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+  Drawer.cpp
+  GameMAneger.cpp
+  UI.cpp
+  main.cpp
+  코드를 생성하고 있습니다...
   SnakeGame.vcxproj -> C:\Users\HKE\Desktop\SnakeGame\SnakeGame\Debug\SnakeGame.exe

@@ -6,5 +6,7 @@ int main()
 	SetConsol();
 	GameUI();
 
-	while (!_kbhit());
+	StartGame();
+	while (!_kbhit()) {
+	}
 }

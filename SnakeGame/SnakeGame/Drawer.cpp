@@ -1,13 +1,23 @@
 #include"Snake.h"
 
-void Draw()
+void DrawSnake(int x, int y)
 {
-	for (int i = 0; i < FRAME_HEIGHT; i++) {
-		for (int j = 0; j < FRAME_WIDTH; j++) {
-			if (gameBoard[i][j] = 1) {
-				Gotoxy(PADDING + j * 2, PADDING + i);
-				printf("бр")
-			}
-		}
-	}
+	Gotoxy(x * 2, y);
+	
+	printf("бс");
+}
+
+void Remover(int x, int y)
+{
+	Gotoxy(x * 2, y);
+
+	printf("  ");
+}
+
+void SpawnSnake()
+{
+	int startX = 5;
+	int startY = 5;
+
+	DrawSnake(startX, startY);
 }
