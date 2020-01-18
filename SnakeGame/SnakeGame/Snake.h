@@ -6,6 +6,10 @@
 #define FRAME_HEIGHT 30
 #define PADDING 2
 
+typedef struct _state {
+	int countTail;
+};
+
 //ConsolControl.cpp
 void SetConsol();
 void Gotoxy(int x, int y);

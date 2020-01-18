@@ -9,5 +9,7 @@ void SpawnSnake()
 }
 
 void StartGame() {
+
+
 	SpawnSnake();
 }
