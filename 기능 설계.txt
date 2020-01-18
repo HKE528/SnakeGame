@@ -1,7 +1,7 @@
 ConsolSetting.cpp
  - 콘솔 커서 숨기기
  - 콘솔 사이즈 조정
-
+ - 콘솔 커서 위치 이동
 Frame.cpp
  - 맵 세팅
 
