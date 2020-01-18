@@ -13,6 +13,3 @@ void Remover(int x, int y)
 
 	printf("  ");
 }
-
-
-

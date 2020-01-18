@@ -19,4 +19,3 @@ void StartGame();
 //Drawer.cpp
 void DrawSnake(int, int);
 void Remover(int, int);
-//void SpawnSnake();
