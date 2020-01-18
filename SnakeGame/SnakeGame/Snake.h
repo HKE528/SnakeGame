@@ -23,3 +23,6 @@ void StartGame();
 //Drawer.cpp
 void DrawSnake(int, int);
 void Remover(int, int);
+
+//SnakeMover.cpp
+void initPointVector(int, int);
