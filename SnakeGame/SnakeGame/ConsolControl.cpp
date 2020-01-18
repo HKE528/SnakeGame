@@ -3,7 +3,7 @@
 
 void SetConsolSize()
 {
-	system("mode con cols=62 lines=31");
+	system("mode con cols=84 lines=32");
 }
 
 void RemoveCurser()

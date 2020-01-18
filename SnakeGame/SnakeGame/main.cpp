@@ -3,6 +3,7 @@
 
 int main()
 {
+	SetConsol();
 	GameUI();
 
 	while (!_kbhit());

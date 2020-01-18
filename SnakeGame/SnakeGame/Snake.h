@@ -2,8 +2,8 @@
 
 #include <cstdio>
 
-#define FRAME_WIDTH 20
-#define FRAME_HEIGHT 10
+#define FRAME_WIDTH 40
+#define FRAME_HEIGHT 30
 
 //ConsolControl.cpp
 void SetConsol();
