@@ -1,0 +1,25 @@
+ConsolSetting.cpp
+ - 콘솔 커서 숨기기
+ - 콘솔 사이즈 조정
+
+Frame.cpp
+ - 맵 세팅
+
+Drawer.cpp
+ - 게임 화면 그리기
+
+SnakeMove.cpp
+ - 뱀 앞으로 가게하기
+ - 뱀 방향 바꾸기
+
+GameManeger.cpp
+ - 뱀 스폰 (시작)
+ - 뱀 먹이 랜덤 스폰
+ - 게임 오버
+
+Snake.cpp
+ - 뱀 먹이 먹으면 길어지기
+ - 벽, 뱀 몸통에 닿으면 게임 오버
+
+main.cpp
+ - 방향키 따라 방향 바꾸기
