@@ -1,11 +1,5 @@
 #include"Snake.h"
 #include<vector>
-#include<cmath>
-
-typedef struct _point {
-	int x;
-	int y;
-}Point;
 
 std::vector<Point> pointList;
 
@@ -72,6 +66,8 @@ void MoveSnake(State& s)
 	Remover(curTail.x, curTail.y);
 	std::vector<Point>::iterator it;
 	for (it = pointList.begin(); it != pointList.end(); it++) {
-		DrawSnake(it->x, it->y);
+		DrawBox(it->x, it->y);
 	}
+
+	CheckFood(s, pointList.front());
 }

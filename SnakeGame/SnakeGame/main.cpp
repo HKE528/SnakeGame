@@ -10,7 +10,7 @@ int main()
 
 	SetConsol();
 	GameUI();
-	StartGame();
+	StartGame(s);
 
 	while (1) {
 		if (_kbhit())
@@ -30,6 +30,6 @@ int main()
 		}
 
 		MoveSnake(s);
-		Sleep(100);
+		Sleep(200);
 	}
 }

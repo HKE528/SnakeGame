@@ -14,7 +14,15 @@ enum dgree {UP, RIGHT, DOWN, LEFT};
 typedef struct _state {
 	int countTail;
 	unsigned int degree;
+	bool isFood;
+	int foodX;
+	int foodY;
 }State;
+
+typedef struct _point {
+	int x;
+	int y;
+}Point;
 
 //ConsolControl.cpp
 void SetConsol();
@@ -25,10 +33,12 @@ void GameUI();
 
 //GameManeger.cpp
 State Init();
-void StartGame();
+void StartGame(State& s);
+void CheckFood(State& s, Point& p);
+//void CheckFood(State& s, Point& p);
 
 //Drawer.cpp
-void DrawSnake(int, int);
+void DrawBox(int, int);
 void Remover(int, int);
 
 //SnakeMover.cpp

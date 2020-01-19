@@ -1,6 +1,6 @@
 #include"Snake.h"
 
-void DrawSnake(int x, int y)
+void DrawBox(int x, int y)
 {
 	Gotoxy(x * 2, y);
 	
