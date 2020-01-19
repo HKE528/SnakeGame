@@ -1,5 +1,6 @@
 #include"Snake.h"
 #include<vector>
+#include<cmath>
 
 typedef struct _point {
 	int x;
@@ -36,20 +37,24 @@ void SetFront(Point& curHead ,int degree)
 {
 	switch (degree)
 	{
-	case LEFT:
+	case RIGHT:
 		curHead.x += 1;
+		//printf("RIGHT");
 		break;
 
-	case RIGHT:
+	case LEFT:
 		curHead.x -= 1;
+		//printf("LEFT");
 		break;
 
 	case UP:
 		curHead.y -= 1;
+		//printf("up");
 		break;
 
 	case DOWN:
 		curHead.y += 1;
+		//printf("down");
 		break;
 	}
 

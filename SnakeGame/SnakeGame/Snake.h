@@ -9,11 +9,11 @@
 #define LEFT_KEY 75
 #define RIGHT_KEY 77
 
-enum dgree {LEFT, RIGHT, UP, DOWN};
+enum dgree {UP, RIGHT, DOWN, LEFT};
 
 typedef struct _state {
 	int countTail;
-	int degree;
+	unsigned int degree;
 }State;
 
 //ConsolControl.cpp

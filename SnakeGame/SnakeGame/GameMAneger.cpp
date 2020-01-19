@@ -5,7 +5,7 @@ State Init()
 	State s;
 
 	s.countTail = 3;
-	s.degree = LEFT;
+	s.degree = RIGHT;
 
 	return s;
 }
