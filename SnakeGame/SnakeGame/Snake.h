@@ -6,9 +6,15 @@
 #define FRAME_HEIGHT 30
 #define PADDING 2
 
+#define LEFT_KEY 75
+#define RIGHT_KEY 77
+
+enum dgree {LEFT, RIGHT, UP, DOWN};
+
 typedef struct _state {
 	int countTail;
-};
+	int degree;
+}State;
 
 //ConsolControl.cpp
 void SetConsol();

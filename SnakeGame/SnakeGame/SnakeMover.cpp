@@ -32,6 +32,11 @@ void PointShift()
 	}
 }
 
+//void SetDegree(int degree)
+//{
+//	
+//}
+
 void MoveSnake()
 {
 	Point curHead = pointList.front();

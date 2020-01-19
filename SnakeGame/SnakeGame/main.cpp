@@ -11,14 +11,7 @@ int main()
 	StartGame();
 
 	while (1) {
-		while (_kbhit()) {
-			key = _getch();
-
-			if (key == 32) {
-				//system("cls");
-				MoveSnake();
-			}
-		}
-		Sleep(1000);
+		MoveSnake();
+		Sleep(100);
 	}
 }

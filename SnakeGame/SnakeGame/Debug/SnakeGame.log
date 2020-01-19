@@ -1,4 +1,4 @@
-﻿  SnakeMover.cpp
+﻿  main.cpp
 C:\Users\HKE\Desktop\SnakeGame\SnakeGame\SnakeGame\Snake.h(11,2): warning C4091: 'typedef ': 변수를 선언하지 않으면 '_state' 왼쪽은 무시됩니다.
-C:\Users\HKE\Desktop\SnakeGame\SnakeGame\SnakeGame\SnakeMover.cpp(28,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\HKE\Desktop\SnakeGame\SnakeGame\SnakeGame\main.cpp(7,7): warning C4101: 'key' :참조되지 않은 지역 변수입니다.
   SnakeGame.vcxproj -> C:\Users\HKE\Desktop\SnakeGame\SnakeGame\Debug\SnakeGame.exe
