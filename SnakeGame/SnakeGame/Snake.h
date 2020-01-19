@@ -24,6 +24,7 @@ void Gotoxy(int x, int y);
 void GameUI();
 
 //GameManeger.cpp
+State Init();
 void StartGame();
 
 //Drawer.cpp
@@ -32,4 +33,4 @@ void Remover(int, int);
 
 //SnakeMover.cpp
 void initPointVector(int, int);
-void MoveSnake();
+void MoveSnake(State& s);

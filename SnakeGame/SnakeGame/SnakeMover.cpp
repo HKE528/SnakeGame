@@ -32,18 +32,37 @@ void PointShift()
 	}
 }
 
-//void SetDegree(int degree)
-//{
-//	
-//}
+void SetFront(Point& curHead ,int degree)
+{
+	switch (degree)
+	{
+	case LEFT:
+		curHead.x += 1;
+		break;
 
-void MoveSnake()
+	case RIGHT:
+		curHead.x -= 1;
+		break;
+
+	case UP:
+		curHead.y -= 1;
+		break;
+
+	case DOWN:
+		curHead.y += 1;
+		break;
+	}
+
+	pointList.front() = curHead;
+}
+
+void MoveSnake(State& s)
 {
 	Point curHead = pointList.front();
 	Point curTail = pointList.back();
 
 	PointShift();
-	pointList.front() = { curHead.x + 1, curHead.y};
+	SetFront(curHead, s.degree);
 
 	Remover(curTail.x, curTail.y);
 	std::vector<Point>::iterator it;

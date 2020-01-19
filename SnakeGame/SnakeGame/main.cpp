@@ -6,12 +6,14 @@ int main()
 {
 	char key;
 
+	State s = Init();
+
 	SetConsol();
 	GameUI();
 	StartGame();
 
 	while (1) {
-		MoveSnake();
+		MoveSnake(s);
 		Sleep(100);
 	}
 }

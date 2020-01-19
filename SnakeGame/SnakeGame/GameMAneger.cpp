@@ -1,11 +1,13 @@
 #include"Snake.h"
 
-State init()
+State Init()
 {
 	State s;
 
 	s.countTail = 3;
 	s.degree = LEFT;
+
+	return s;
 }
 
 void SpawnSnake()
@@ -21,5 +23,6 @@ void SpawnSnake()
 }
 
 void StartGame() {
+
 	SpawnSnake();
 }
