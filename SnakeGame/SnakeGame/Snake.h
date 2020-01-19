@@ -26,3 +26,4 @@ void Remover(int, int);
 
 //SnakeMover.cpp
 void initPointVector(int, int);
+void MoveSnake();
