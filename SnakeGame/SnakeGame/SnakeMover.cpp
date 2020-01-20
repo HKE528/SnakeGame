@@ -80,6 +80,11 @@ bool CollisionCheck(Point p)
 		}
 	}
 
+	for (int i = 1; i < pointList.size(); i++) {
+		if (p.x == pointList.at(i).x && p.y == pointList.at(i).y)
+			return true;
+	}
+
 	return false;	
 }
 
