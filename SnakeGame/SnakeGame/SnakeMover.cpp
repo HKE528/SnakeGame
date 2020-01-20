@@ -15,6 +15,13 @@ void initPointVector(int x, int y)
 	}
 }
 
+void addTail()
+{
+	Point newPoint = pointList.back();
+
+	pointList.push_back(newPoint);
+}
+
 void PointShift()
 {
 	Point temp, prevPoint = pointList.front();
@@ -70,4 +77,8 @@ void MoveSnake(State& s)
 	}
 
 	CheckFood(s, pointList.front());
+
+	if (s.countTail > pointList.size()) {
+		addTail();
+	}
 }

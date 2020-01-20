@@ -1,2 +1,4 @@
-﻿  GameMAneger.cpp
+﻿  SnakeMover.cpp
+C:\Users\HKE\Desktop\SnakeGame\SnakeGame\SnakeGame\SnakeMover.cpp(30,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\HKE\Desktop\SnakeGame\SnakeGame\SnakeGame\SnakeMover.cpp(81,18): warning C4018: '>': signed 또는 unsigned가 일치하지 않습니다.
   SnakeGame.vcxproj -> C:\Users\HKE\Desktop\SnakeGame\SnakeGame\Debug\SnakeGame.exe

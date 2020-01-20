@@ -30,6 +30,6 @@ int main()
 		}
 
 		MoveSnake(s);
-		Sleep(200);
+		Sleep(50);
 	}
 }
