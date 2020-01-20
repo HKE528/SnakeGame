@@ -17,6 +17,7 @@ typedef struct _state {
 	bool isFood;
 	int foodX;
 	int foodY;
+	bool gameover;
 }State;
 
 typedef struct _point {

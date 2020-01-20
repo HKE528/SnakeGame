@@ -62,6 +62,27 @@ void SetFront(Point& curHead ,int degree)
 	pointList.front() = curHead;
 }
 
+bool CollisionCheck(Point p)
+{
+	for (int i = 0; i < FRAME_HEIGHT + PADDING; i += FRAME_HEIGHT + 1) {
+		for (int j = 1; j < FRAME_WIDTH + PADDING; j++) {
+			if (p.x == j && p.y == i) {
+				return true;
+			}
+		}
+	}
+
+	for (int i = 0; i < FRAME_WIDTH + PADDING; i += FRAME_WIDTH + 1) {
+		for (int j = 1; j < FRAME_HEIGHT + PADDING; j++) {
+			if (p.x == i && p.y == j) {
+				return true;
+			}
+		}
+	}
+
+	return false;	
+}
+
 void MoveSnake(State& s)
 {
 	Point curHead = pointList.front();
@@ -69,6 +90,10 @@ void MoveSnake(State& s)
 
 	PointShift();
 	SetFront(curHead, s.degree);
+
+	s.gameover = CollisionCheck(pointList.front());
+	if (s.gameover)
+		return;
 
 	Remover(curTail.x, curTail.y);
 	std::vector<Point>::iterator it;

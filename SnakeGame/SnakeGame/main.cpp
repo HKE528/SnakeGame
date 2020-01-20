@@ -12,7 +12,7 @@ int main()
 	GameUI();
 	StartGame(s);
 
-	while (1) {
+	while (!s.gameover) {
 		if (_kbhit())
 		{
 			key = _getch();

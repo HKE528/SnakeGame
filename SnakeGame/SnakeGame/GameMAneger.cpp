@@ -13,6 +13,7 @@ State Init()
 	s.countTail = 3;
 	s.degree = RIGHT;
 	s.isFood = true;
+	s.gameover = false;
 
 	return s;
 }
