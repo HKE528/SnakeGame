@@ -1,6 +1,7 @@
 #pragma once
 
 #include <cstdio>
+#include <conio.h>
 
 #define FRAME_WIDTH 40
 #define FRAME_HEIGHT 30
@@ -31,12 +32,14 @@ void Gotoxy(int x, int y);
 
 //UI.cpp
 void GameUI();
+void GameoverUI(State& s);
+void RemoveBoard();
 
 //GameManeger.cpp
 State Init();
 void StartGame(State& s);
 void CheckFood(State& s, Point& p);
-//void CheckFood(State& s, Point& p);
+void ResetGame(State& s);
 
 //Drawer.cpp
 void DrawBox(int, int);

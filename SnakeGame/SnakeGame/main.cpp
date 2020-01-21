@@ -1,5 +1,4 @@
 #include "Snake.h"
-#include <conio.h>
 #include<Windows.h>
 
 int main()
@@ -10,26 +9,32 @@ int main()
 
 	SetConsol();
 	GameUI();
-	StartGame(s);
+	
+	while (1) {
 
-	while (!s.gameover) {
-		if (_kbhit())
-		{
-			key = _getch();
-
-			switch (key)
+		StartGame(s);
+		while (!s.gameover) {
+			if (_kbhit())
 			{
-			case RIGHT_KEY:
-				s.degree = (s.degree + 1) % 4;
-				break;
+				key = _getch();
 
-			case LEFT_KEY:
-				s.degree = (s.degree + 3) % 4;
-				break;
+				switch (key)
+				{
+				case RIGHT_KEY:
+					s.degree = (s.degree + 1) % 4;
+					break;
+
+				case LEFT_KEY:
+					s.degree = (s.degree + 3) % 4;
+					break;
+				}
 			}
+
+			MoveSnake(s);
+			Sleep(50);
 		}
 
-		MoveSnake(s);
-		Sleep(50);
+		GameoverUI(s);
+		ResetGame(s);
 	}
 }

@@ -10,8 +10,6 @@ State Init()
 {
 	State s;
 
-	s.countTail = 3;
-	s.degree = RIGHT;
 	s.isFood = true;
 	s.gameover = false;
 
@@ -50,8 +48,19 @@ void CheckFood(State& s, Point& p)
 	}
 }
 
-void StartGame(State& s) {
+void StartGame(State& s)
+{
+	s.countTail = 3;
+	s.degree = RIGHT;
 
+	RemoveBoard();
 	SpawnFood(s);
 	SpawnSnake();
+}
+
+void ResetGame(State& s)
+{
+	char key = _getch();
+	if (key == 'R' || key == 'r')
+		s.gameover = false;
 }

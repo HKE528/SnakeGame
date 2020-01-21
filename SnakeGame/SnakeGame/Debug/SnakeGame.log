@@ -1,5 +1,13 @@
-﻿  SnakeMover.cpp
+﻿  ConsolControl.cpp
+C:\Users\HKE\Desktop\SnakeGame\SnakeGame\SnakeGame\ConsolControl.cpp(25,19): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\HKE\Desktop\SnakeGame\SnakeGame\SnakeGame\ConsolControl.cpp(25,22): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+  Drawer.cpp
+  GameMAneger.cpp
+  SnakeMover.cpp
 C:\Users\HKE\Desktop\SnakeGame\SnakeGame\SnakeGame\SnakeMover.cpp(30,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
 C:\Users\HKE\Desktop\SnakeGame\SnakeGame\SnakeGame\SnakeMover.cpp(83,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
 C:\Users\HKE\Desktop\SnakeGame\SnakeGame\SnakeGame\SnakeMover.cpp(111,18): warning C4018: '>': signed 또는 unsigned가 일치하지 않습니다.
+  UI.cpp
+  main.cpp
+  코드를 생성하고 있습니다...
   SnakeGame.vcxproj -> C:\Users\HKE\Desktop\SnakeGame\SnakeGame\Debug\SnakeGame.exe
